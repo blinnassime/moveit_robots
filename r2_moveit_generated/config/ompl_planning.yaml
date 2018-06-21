@@ -5,6 +5,8 @@ planner_configs:
     type: geometric::LBKPIECE
   RRTkConfigDefault:
     type: geometric::RRT
+  CIRRT:
+    type: geometric::CIRRT
   RRTConnectkConfigDefault:
     type: geometric::RRTConnect
   LazyRRTkConfigDefault:
@@ -19,6 +21,7 @@ planner_configs:
     type: geometric::BKPIECE
 left_arm:
   planner_configs:
+    - CIRRT
     - SBLkConfigDefault
     - LBKPIECEkConfigDefault
     - RRTkConfigDefault
@@ -29,6 +32,7 @@ left_arm:
     - RRTStarkConfigDefault
 right_arm:
   planner_configs:
+    - CIRRT
     - SBLkConfigDefault
     - LBKPIECEkConfigDefault
     - RRTkConfigDefault

@@ -47,7 +47,7 @@ Visualization Manager:
       Enabled: true
       Move Group Namespace: ""
       MoveIt_Goal_Tolerance: 0
-      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Attempts: 1
       MoveIt_Planning_Time: 5
       MoveIt_Use_Constraint_Aware_IK: true
       MoveIt_Warehouse_Host: 127.0.0.1
@@ -343,7 +343,7 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-        Loop Animation: false
+        Loop Animation: true
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
         Show Robot Collision: false
@@ -364,7 +364,7 @@ Visualization Manager:
         Goal State Color: 250; 128; 0
         Interactive Marker Size: 0.300000012
         Joint Violation Color: 255; 0; 255
-        Planning Group: both_arms
+        Planning Group: left_arms
         Query Goal State: true
         Query Start State: false
         Show Workspace: false

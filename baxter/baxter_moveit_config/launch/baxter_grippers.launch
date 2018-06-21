@@ -4,7 +4,7 @@
   <arg name="rviz_config" default="$(find baxter_moveit_config)/launch/moveit.rviz" />
 
   <!-- By default we do not overwrite the URDF. Change the following to true to change the default behavior -->
-  <arg name="load_robot_description" default="false"/>
+  <arg name="load_robot_description" default="true"/>
   <!-- Left and right electric gripper params. Set to true to check for collisions for their links -->
   <arg name="right_electric_gripper" default="true"/>
   <arg name="left_electric_gripper" default="true"/>
